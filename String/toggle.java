@@ -1,4 +1,4 @@
-package String;
+
 
 import java.util.Scanner;
 
@@ -10,6 +10,7 @@ public class toggle {
         for(int i = 0; i<str.length();i++){
             boolean flag = true; // initially Capital
             char ch = str.charAt(i);
+            if(ch==' ') continue;
             int ascii = (int) ch;
             if(ascii >= 97) flag = false; //Small
             if(flag == true){
