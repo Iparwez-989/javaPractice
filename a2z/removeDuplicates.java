@@ -31,7 +31,6 @@ public class removeDuplicates {
         int cnt = count(arr);
         System.out.println(cnt);
         int sol[] = removeDup(arr);
-        
         System.out.println(Arrays.toString(sol));
     }
 }
