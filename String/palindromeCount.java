@@ -19,7 +19,7 @@ public class palindromeCount{
     public static void main(String[] args) {
         String str1 = "abcba";
         int count = 0;
-       
+       System.out.println(str1.substring(0,3));
         for(int i =0;i<str1.length();i++){
             for(int j = i+1;j<=str1.length();j++){
                 // System.out.println(str1.substring(i, j));
